@@ -9,5 +9,3 @@
 - Pedro Vitorino
 - Rafaela Lima
 - Victor Ferreira
-- Teste
-- Teste 2
