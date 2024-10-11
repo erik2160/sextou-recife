@@ -1,1 +1,0 @@
-// Versão brasileira Hebert richard
