@@ -1,5 +1,6 @@
 import "./Footer.css";
-// components/Footer.jsx
+import Sextou from "../../assets/sextou-recife.png";
+
 function Footer() {
     return (
       <footer className="rodape">
@@ -9,8 +10,8 @@ function Footer() {
 
         <p>© 2024 Sextou Recife. Todos os direitos reservados.</p>
 
-        <p>Política de Privacidade | Termos de Serviço</p>
-
+        <p className="privacidade">Política de Privacidade | Termos de Serviço</p>
+        <img src={Sextou} alt="Sextou Recife" />
       </footer>
     );
   }
