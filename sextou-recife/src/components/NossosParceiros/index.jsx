@@ -1,12 +1,15 @@
-// import "style.css";
+import "./style.css";
 
 function nossosParceiros() {
     return (
         <div className="parceiros">
-            <h2>Nossos Parceiros</h2>
-            <img src="partner1.png" alt="Partner 1" />
-            <img src="partner2.png" alt="Partner 2" />
-            <img src="partner3.png" alt="Partner 3" />
+            <h2 id="parceiros-top-text">Nossos Parceiros</h2>
+            <div className="parceiro-imagens-container">
+                <div className="parceiro-imagem" id="parceiro-um"></div>
+                <div className="parceiro-imagem" id="parceiro-dois"></div>
+                <div className="parceiro-imagem" id="parceiro-tres"></div>
+                <div className="parceiro-imagem" id="parceiro-quatro"></div>
+            </div>
         </div>
     );
 }
