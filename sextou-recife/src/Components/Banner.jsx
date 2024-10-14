@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 function Banner () {
-  const words = ['evento', 'bar', 'restaurante', 'comércio', 'local']; 
+  const words = ['eventos', 'bares', 'restaurantes']; 
   const [index, setIndex] = useState(0);
   const [typing, setTyping] = useState(false);
 
@@ -24,7 +24,7 @@ function Banner () {
 return (
   <div className='banner'>
     <div className='container'></div>
-    <h1>Encontre o melhor
+    <h1>Encontre os melhores
       <p>{words[index].split('').map((letter, i) => (
         <span key={i}>
           {letter}

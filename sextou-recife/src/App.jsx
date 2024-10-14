@@ -1,15 +1,12 @@
-import { useState } from "react";
-import Banner from "./components/Michele/Michele";
-import "./App.css";
-
+import './Components/Style.css'
+import Banner from './Components/Banner'
 function App() {
-  const [count, setCount] = useState(0);
-
+  
   return (
     <>
     <Banner />
     </>
-  );
+  )
 }
 
 export default App;
