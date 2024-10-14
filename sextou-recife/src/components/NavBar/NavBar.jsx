@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from '../NavBar/img/logo-sextou-recife.png';
-
+import logo from "./public/logo-sextou-recife.png.";
 function Navbar() {
     return (
         
