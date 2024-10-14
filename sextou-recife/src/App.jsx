@@ -1,16 +1,12 @@
-// Esse CSS não é importado aqui, vocẽ deve importar diretamente no componente da seguinte forma:
-// import "./navbar.css"
-
-// import css from "./components/NavBar/navbar.css";
-
-import NavBar from "./components/NavBar";
-
+import './Components/Style.css'
+import Banner from './Components/Banner'
 function App() {
-    return (
-        <div>
-            <NavBar />
-        </div>
-    );
+  
+  return (
+    <>
+    <Banner />
+    </>
+  )
 }
 
 export default App;
