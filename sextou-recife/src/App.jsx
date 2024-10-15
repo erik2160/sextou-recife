@@ -1,10 +1,10 @@
-import './Components/Style.css'
-import Banner from './Components/Banner'
+import Footer from "./components/Footer/Footer.jsx";
+
 function App() {
-  
+
   return (
     <>
-    <Banner />
+     < Footer />
     </>
   )
 }
