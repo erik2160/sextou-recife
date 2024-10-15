@@ -1,6 +1,4 @@
-import "./App.css";
-
-import NavBar from "./components/NavBar";
+import Navbar from "./components/NavBar";
 import Banner from "./components/Banner";
 import Carrossel from "./components/Carrossel";
 import EventosFuturos from "./components/EventosFuturos";
