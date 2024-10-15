@@ -2,7 +2,7 @@ import "./style.css";
 
 function Navbar() {
     return (
-        <div className="styles.header">
+        <div className="navbar">
             <span>
                 {/* Arrume a importação da imagem para poder adicionar aqui */}
                 {/* <img src={logo} alt="logo-sextou-recife.png" /> */}

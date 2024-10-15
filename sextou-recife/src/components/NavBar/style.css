@@ -6,10 +6,8 @@
   color: white;
   padding: 10px;
   z-index: 1000;
-  /* Garante que a navbar fique acima de outros elementos */
 }
 
 body {
   margin-top: 50px;
-  /* Adicione margem ao conteúdo para que ele não fique escondido atrás da navbar */
 }
