@@ -2,17 +2,16 @@ import "./style.css";
 
 function Navbar() {
     return (
-        <div className="navbar">
+        <div className="styles-navbar">
             <span>
-                {/* Arrume a importação da imagem para poder adicionar aqui */}
-                {/* <img src={logo} alt="logo-sextou-recife.png" /> */}
+                <img src="/public/Sextou-logo.png" alt="Logo" href="#"/>
             </span>
             <nav>
                 <a href="">Mapa</a>
                 <a href="">Eventos</a>
                 <a href="">Parceiros</a>
-                <a href="">Contato</a>
             </nav>
+            <button>Contato</button>
         </div>
     );
 }
