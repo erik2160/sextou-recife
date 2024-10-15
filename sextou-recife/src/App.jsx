@@ -1,12 +1,13 @@
-import Footer from "./components/Footer/Footer.jsx";
+import React from "react";
+import Eventos from "./components/EventosFuturos/Eventos";
+import './components/EventosFuturos/Eventos.css'; 
 
 function App() {
-
   return (
-    <>
-     < Footer />
-    </>
-  )
+    <div className="App">
+      <Eventos />
+    </div>
+  );
 }
 
 export default App;
