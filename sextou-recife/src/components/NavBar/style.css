@@ -1,11 +1,53 @@
-.navbar {
+.styles-navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: aqua;
+  height: 100px;
   color: white;
-  padding: 10px;
+  display: flex;
   z-index: 1000;
+  background-image: url(/public/background-1.png);
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+
+.styles-navbar img {
+  width: 120px;
+  margin-top: 20px;
+}
+
+.styles-navbar nav {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.styles-navbar nav a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+button {
+  background-color: #FFC800;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 80px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  width: 150px;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+}
+
+button:hover {
+  background-color: #c69e0e;
+  color: white;
 }
 
 body {
