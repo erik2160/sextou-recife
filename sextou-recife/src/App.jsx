@@ -10,7 +10,7 @@ function App() {
         <>
             {/* <Navbar /> */}
             {/* <Banner /> */}
-            {/* <Carrossel /> */}
+            <Carrossel />
             {/* <EventosFuturos /> */}
             {/* <NossosParceiros /> */}
             {/* <Footer /> */}

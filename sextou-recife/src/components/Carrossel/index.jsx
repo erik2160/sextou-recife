@@ -43,10 +43,14 @@ function Carrossel() {
 
     useEffect(() => {
         function alterarSlidePerView() {
-            if (window.innerWidth < 720) {
+            if (window.innerWidth <= 768) {
                 setSlidePerView(1);
-            } else {
+            } else if (window.innerWidth <= 1024) {
+                setSlidePerView(2);
+            } else if (window.innerWidth <= 1280) {
                 setSlidePerView(3);
+            } else {
+                setSlidePerView(4);
             }
         }
 
@@ -69,9 +73,9 @@ function Carrossel() {
     return (
         <>
             <div className="container">
+                <h1>Sinta o charme de Recife na veia!</h1>
                 <Swiper
                     slidesPerView={slidesPerView}
-                    pagination={{ clickable: true }}
                     navigation
                     loop={true}
                     autoplay={{ delay: 2000, disableOnInteraction: false }} // Autoplay configurado
