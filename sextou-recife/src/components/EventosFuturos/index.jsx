@@ -17,6 +17,8 @@ const Eventos = () => {
                     <div className="caixa laranja"></div>
                     <div className="caixa azul"></div>
                     <div className="caixa azul-claro"></div>
+                    <div className="caixa amarela"></div>
+                    <div className="caixa vermelha"></div>
                 </div>
                 <button className="botao">Descubra mais</button>
             </div>

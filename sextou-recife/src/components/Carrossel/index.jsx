@@ -72,8 +72,8 @@ function Carrossel() {
 
     return (
         <>
-            <div className="container">
-                <h1>Sinta o charme de Recife na veia!</h1>
+            <div className="carrossel">
+                <h1 className="title">Sinta o charme de Recife na veia!</h1>
                 <Swiper
                     slidesPerView={slidesPerView}
                     navigation

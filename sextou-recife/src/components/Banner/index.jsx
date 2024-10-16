@@ -35,6 +35,9 @@ function Banner() {
                 para você
             </h1>
             <button type="button">Bora sextar?</button>
+            <div className="transicao-suave">
+                
+            </div>
         </div>
     );
 }

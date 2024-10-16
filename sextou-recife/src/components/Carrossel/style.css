@@ -49,14 +49,14 @@
       opacity: 1;
     }
   }
-
-
-  h1 {
+  .title {
     color: #A62014;
     cursor: default;
+    margin: 20px 0px;
+
   }
 
-  .container {
+  .carrossel {
     height: min-content;
     width: 100%;
     max-width: 1440px;
