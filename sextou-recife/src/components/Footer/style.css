@@ -33,19 +33,17 @@ p {
 .logo {
   height: auto;
   width: 180px;
-  position: absolute;
-  right: 10px;
-  bottom: 5px;
+  position: relative;
+  right: 0;
+  bottom: 0;
 }
 
 .panela {
   background-color: #0dbfdd;
-  height: min-content;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  position: absolute;
-  bottom: 0;
   height: 336px;
 }

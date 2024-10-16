@@ -4,17 +4,24 @@ import Carrossel from "./components/Carrossel";
 import EventosFuturos from "./components/EventosFuturos";
 import NossosParceiros from "./components/NossosParceiros";
 import Footer from "./components/Footer";
+import "./App.css"
 
 function App() {
     return (
-        <>
-            {/* <Navbar /> */}
-            {/* <Banner /> */}
-            <Carrossel />
-            {/* <EventosFuturos /> */}
-            {/* <NossosParceiros /> */}
-            {/* <Footer /> */}
-        </>
+        <div className="main-content">
+            <header>
+                <Navbar />
+            </header>
+            <main>
+                <Banner />
+                <Carrossel />
+                <EventosFuturos />
+                <NossosParceiros />
+            </main>
+            <footer>
+                <Footer />
+            </footer>
+        </div>
     );
 }
 
