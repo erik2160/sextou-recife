@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: min-content;
+    margin: 0;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
+}
+article{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+}
+footer {
+    padding: 1rem;
+}

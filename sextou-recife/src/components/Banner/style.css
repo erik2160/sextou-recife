@@ -57,3 +57,11 @@
     z-index: 2;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
 }
+.transicao-suave{
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),white, white);
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}

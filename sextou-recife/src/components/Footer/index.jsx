@@ -6,7 +6,7 @@ import Tiktok from "../../assets/tiktok.png";
 function Footer() {
     return (
         <div className="panela">
-            <footer className="rodape">
+            <div className="rodape">
                 <div className="p1">
                     <p>Siga-nos nas redes</p>
 
@@ -54,7 +54,7 @@ function Footer() {
                         </a>
                     </p>
                 </div>
-            </footer>
+            </div>
             <img src={Sextou} alt="Sextou Recife" className="logo" />
         </div>
     );
