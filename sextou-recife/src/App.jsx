@@ -1,5 +1,6 @@
 import Navbar from "./components/NavBar";
 import Banner from "./components/Banner";
+import Revitalizando from "./components/Revitalizando";
 import Carrossel from "./components/Carrossel";
 import EventosFuturos from "./components/EventosFuturos";
 import NossosParceiros from "./components/NossosParceiros";
@@ -13,7 +14,12 @@ function App() {
         <Navbar />
       </header>
       <main>
-        <Banner />
+        <article>
+          <Banner />
+        </article>
+        <article>
+          <Revitalizando />
+        </article>
         <article>
           <Carrossel />
         </article>

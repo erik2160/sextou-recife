@@ -12,7 +12,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 700px;
+    width: 100vw; /*Antes essa linha não existia, deixando a imagem pequena*/
+    height: 110vh; /*Antes era 700px, mudei para 110vh para manter sempre a tela inteira, os 10vh é por conta do fade*/
 }
 
 .container {
@@ -21,7 +22,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    height: 700px;
+    height: 110vh;/*Também alterei para 110vh, era 700px*/
     background: rgba(0, 0, 0, 0.532);
     z-index: 1;
 }
@@ -50,9 +51,9 @@
     cursor: pointer;
     background-color: #ffc800;
     font-weight: bold;
-    padding: 8px;
+    font-size: 18px;
     top: 6%;
-    width: 170px;
+    width: 200px;
     height: 40px;
     z-index: 2;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
@@ -62,6 +63,6 @@
     height: 10vh;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),white, white);
     position: absolute;
-    bottom: 0;
+    bottom: -10vh;
     z-index: 3;
 }
